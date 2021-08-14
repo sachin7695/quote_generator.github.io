@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+body {
+  background-color: #dfdbe5;
+  background-image: url("asdf.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 27px;
+  box-shadow: 6 9px 102px rgba(255, 255, 255, 0.8);
+  border-radius: 106px;
+  width: 626px;
+  background-color: rgba(62, 9, 9, 0.3);
+  margin-top: 89px;
+  margin-bottom: 89px;
+  margin-left: 89px;
+  margin-right: 89px;
+}
+.fas.fa-quote-left {
+  font-size: 40px;
+  color: rgb(29, 214, 183);
+}
+.quote {
+  text-align: center;
+  font-style: oblique;
+  color: rgb(34, 7, 7);
+}
+.author {
+  color: rgb(43, 10, 4);
+  font-size: 18px;
+}
+hr {
+  margin: 10px 0;
+  width: 80%;
+  border: 0.5px solid black;
+}
+
+/*
+button-1
+*/
+.styled {
+  border: 0;
+  line-height: 1.5;
+  padding: 0 10px;
+  font-size: 1.9rem;
+  text-align: left;
+  color: #0e0e0e;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 238, 255), 0 0 0.2em blue;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(43, 24, 24, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(149, 89, 89, 0.6),
+    inset -2px -2px 3px rgba(98, 43, 43, 0.6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+/*
+
+button-2
+
+*/
+
+.btn {
+  border: 0;
+  line-height: 1.5;
+  padding: 0 10px;
+  font-size: 1.9rem;
+  text-align: left;
+  color: #0e0e0e;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 238, 255), 0 0 0.2em blue;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(43, 24, 24, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(149, 89, 89, 0.6),
+    inset -2px -2px 3px rgba(98, 43, 43, 0.6);
+}
+
+.btn:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.btn:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
